@@ -24,9 +24,11 @@
 
 | 项目 | 方向 | 工程亮点 | 状态 |
 | --- | --- | --- | --- |
-| **[CaseOps](https://github.com/gxc02529-jpg/CaseOps)** | SaaS 技术支持工单 | LangGraph 条件路由、混合检索、引用白名单、人工审批与知识回流 | [![CI](https://github.com/gxc02529-jpg/CaseOps/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/CaseOps/actions) |
-| **[KnowLoop](https://github.com/gxc02529-jpg/KnowLoop)** | 物流售后知识问答 | FAQ 直出、Dense + BM25 检索、重排与引用、数据范围和知识版本治理 | [![CI](https://github.com/gxc02529-jpg/KnowLoop/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/KnowLoop/actions) |
-| **[HireAgent](https://github.com/gxc02529-jpg/HireAgent)** | 招聘协作 Agent | FastMCP 工具、职责受限 Agent、结构化意图、可解释匹配与幂等排期 | [![CI](https://github.com/gxc02529-jpg/HireAgent/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/HireAgent/actions) |
+| **[CaseOps](https://github.com/gxc02529-jpg/CaseOps)** | SaaS 技术支持工单 | LangGraph 条件路由、混合检索、引用白名单、人工审批与知识回流 | [![CI](https://github.com/gxc02529-jpg/CaseOps/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/CaseOps/actions) [![Release](https://img.shields.io/github/v/release/gxc02529-jpg/CaseOps?style=flat-square&label=release)](https://github.com/gxc02529-jpg/CaseOps/releases) |
+| **[KnowLoop](https://github.com/gxc02529-jpg/KnowLoop)** | 物流售后知识问答 | FAQ 直出、Dense + BM25 检索、重排与引用、数据范围和知识版本治理 | [![CI](https://github.com/gxc02529-jpg/KnowLoop/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/KnowLoop/actions) [![Release](https://img.shields.io/github/v/release/gxc02529-jpg/KnowLoop?style=flat-square&label=release)](https://github.com/gxc02529-jpg/KnowLoop/releases) |
+| **[HireAgent](https://github.com/gxc02529-jpg/HireAgent)** | 招聘协作 Agent | FastMCP 工具、职责受限 Agent、结构化意图、可解释匹配与幂等排期 | [![CI](https://github.com/gxc02529-jpg/HireAgent/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/HireAgent/actions) [![Release](https://img.shields.io/github/v/release/gxc02529-jpg/HireAgent?style=flat-square&label=release)](https://github.com/gxc02529-jpg/HireAgent/releases) |
+
+三个项目均已发布 `v1.0.0`，版本与变更记录见各自仓库的 `CHANGELOG.md` / `VERSIONING.md`。
 
 ## 我关注的工程问题
 
