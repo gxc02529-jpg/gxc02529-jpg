@@ -26,7 +26,7 @@
 | 仓库 | 业务场景 | 关键实现 | CI |
 | --- | --- | --- | --- |
 | **[KnowLoop](https://github.com/gxc02529-jpg/KnowLoop)** | 物流售后知识问答 | FAQ 高置信直出；Dense + BM25 混合检索、重排与引用生成；多租户范围与知识版本（staged / active / archived）治理；离线检索评测与反馈收集 | [![CI](https://github.com/gxc02529-jpg/KnowLoop/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/KnowLoop/actions) |
-| **[CaseOps](https://github.com/gxc02529-jpg/GA)** | SaaS 技术支持工单 | 工单接入 → 同源聚合 → 信息补齐 → 证据检索 → 人工审批 → 独立处置 → 知识回流；LangGraph 条件路由（CLARIFY / SINGLE / PIPELINE）；混合检索与引用白名单校验 | [![CI](https://github.com/gxc02529-jpg/GA/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/GA/actions) |
+| **[CaseOps](https://github.com/gxc02529-jpg/CaseOps)** | SaaS 技术支持工单 | 工单接入 → 同源聚合 → 信息补齐 → 证据检索 → 人工审批 → 独立处置 → 知识回流；LangGraph 条件路由（CLARIFY / SINGLE / PIPELINE）；混合检索与引用白名单校验 | [![CI](https://github.com/gxc02529-jpg/CaseOps/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/CaseOps/actions) |
 | **[HireAgent](https://github.com/gxc02529-jpg/HireAgent)** | 招聘协作 Agent | 13 个可调用工具 / 3 个职责受限 Agent / 9 类结构化意图；FastMCP 提供 STDIO 与 Streamable HTTP 两种传输；规则化可解释评分，评分不使用年龄、性别等个人属性 | [![CI](https://github.com/gxc02529-jpg/HireAgent/actions/workflows/ci.yml/badge.svg)](https://github.com/gxc02529-jpg/HireAgent/actions) |
 
 三个仓库共用同一套交付底座，按场景做配置化适配；业务资料彼此隔离，同一底座可跨行业复用。
